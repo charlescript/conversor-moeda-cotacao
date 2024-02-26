@@ -19,6 +19,7 @@ const convertValues = async () => {  // Utilizando função assíncrona
 
     const dolar = data.USDBRL.high;
     const euro = data.EURBRL.high;
+    const btc = data.BTCBRL.high;
     
     
     console.log(data);
