@@ -16,6 +16,10 @@ const convertValues = async () => {  // Utilizando função assíncrona
 
     // assync await
     const data = await fetch("https://economia.awesomeapi.com.br/last/USD-BRL,EUR-BRL,BTC-BRL").then( response => response.json() )
+
+    const dolar = data.USDBRL.high;
+    const euro = data.EURBRL.high;
+    
     
     console.log(data);
     // Pegando o valor do dolar e setando na apresentação
