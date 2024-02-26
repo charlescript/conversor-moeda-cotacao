@@ -1,14 +1,14 @@
 const button = document.getElementById('convert-button');
 const select = document.getElementById('currency-select');
 
-const dolar = 4.97;
-const euro = 5.35;
-const bitcoin = 257730.31;
+// const dolar = 4.97;
+// const euro = 5.35;
+// const bitcoin = 257730.31;
 
 // AXIOS
 
 
-const convertValues = async () => {
+const convertValues = async () => {  // Utilizando função assíncrona
     // Pegando o volor do real no campo input
     const inputReal = parseFloat(document.getElementById('input-real').value.trim());
     const realValueText = document.getElementById("real-value-text");
